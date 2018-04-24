@@ -5,7 +5,7 @@
 # */30 * * * * ~/wirenode/checkdaemon.sh
 
 previousBlock=$(cat ~/wirenode/blockcount)
-currentBlock=$(smartcash-cli getblockcount)
+currentBlock=$(wire-cli getblockcount)
 
 wire-cli getblockcount > ~/wirenode/blockcount
 
