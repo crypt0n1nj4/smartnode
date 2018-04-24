@@ -1,6 +1,6 @@
 #!/bin/bash
 # makerun.sh
-# Make sure smartcashd is always running.
+# Make sure wired is always running.
 # Add the following to the crontab (i.e. crontab -e)
 # */5 * * * * ~/wirenode/makerun.sh
 
