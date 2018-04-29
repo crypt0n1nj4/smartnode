@@ -91,6 +91,10 @@ wget https://raw.githubusercontent.com/crypt0n1nj4/social_wallet_masternode_wire
 chmod +x wired
 chmod +x wire-cli
 
+# copy the executables to usr/bin
+cp wired /usr/bin
+cp wire-cli /usr/bin
+
 # Create a directory for wirenode's cronjobs and the anti-ddos script
 rm -r wirenode
 mkdir wirenode
