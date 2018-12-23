@@ -151,5 +151,4 @@ ufw default deny incoming
 ufw default allow outgoing
 ufw --force enable
 
-# Reboot the server
-reboot
+
